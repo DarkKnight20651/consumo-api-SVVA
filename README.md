@@ -28,7 +28,31 @@ Resultados con paginación
 
 ![image](https://github.com/user-attachments/assets/65cf7eba-4ecd-440f-a0bb-7470e8ef40d9)
 
+PREGUNTAS
 
+¿Qué hace el método getUsers en este servicio?
+Nos devuelve una lista de objetos que devuelve el api de usuarios
+
+¿Por qué es necesario importar HttpClientModule?
+Porque nos permite la comunicación con apis
+
+¿Qué función cumple el método ngOnInit en el componente UserListComponent?
+Sirve para cargar los datos de los usuarios al iniciar el componente
+
+¿Para qué sirve el bucle *ngFor en Angular? Explica cómo se utiliza en este ejemplo.
+Nos ayuda a recorrer todos los objetos devueltos por la solicitud, en este caso usuarios
+
+Preguntas de reflexión final:
+
+1. ¿Qué ventajas tiene el uso de servicios en Angular para el consumo de APIs?
+   Centralizar la lógica, crear código reutilizable, y que sea fácil implementar nuevas funcionalidades
+   
+2. ¿Por qué es importante separar la lógica de negocio de la lógica de presentación?
+   Para que nuestro código sea modular y escalable y sea más sencillo tranajar en el
+   
+3. ¿Qué otros tipos de datos o APIs podrías integrar en un proyecto como este?
+   Alguna api para autenticación, pagos, ubicaciones, lo que sea necesarios para el proyecto que se realice
+   
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 
 ## Development server
